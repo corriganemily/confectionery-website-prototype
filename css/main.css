@@ -19,15 +19,6 @@ html {
   box-sizing: inherit;
 }
 
-nav a {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #ddd;
-  border-radius: 4px;
-  font-weight: normal;
-  margin: .4em;
-}
-
 header {
   display: block;
   background-color: #adadad;
@@ -58,6 +49,11 @@ nav a {
   color: black;
   padding: .75em 7.5em;
   max-width: 100%;
+  display: inline-block;
+  background-color: #ddd;
+  border-radius: 4px;
+  font-weight: normal;
+  margin: .4em;
 }
 
 footer {
@@ -73,9 +69,10 @@ main {
   margin: 1em;
 }
 
-figure img {
+.img-flex {
   width: 100%;
   margin: auto;
+  display: block;
 }
 
 figure {
@@ -84,7 +81,7 @@ figure {
   position: relative;
 }
 
-figcaption {
+h1 {
   font-family: "Berkshire Swash", cursive;
   position: absolute;
   background-color: rgba(255, 255, 255, .5);
@@ -116,9 +113,9 @@ div p {
   width: 100%;
 }
 
- nav a:hover {
-   background-color: white;
- }
+nav a:hover {
+  background-color: white;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -133,7 +130,6 @@ div p {
     justify-content: space-around;
     margin: .5em;
   }
-
 
 }
 
@@ -176,7 +172,7 @@ div p {
     line-height: 1.5;
   }
 
-  .coco figcaption {
+  .coco h1 {
     padding: 0 5em;
   }
 
