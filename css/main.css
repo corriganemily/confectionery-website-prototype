@@ -22,7 +22,7 @@ html {
 nav a {
   display: inline-block;
   text-decoration: none;
-  background-color: #DDDDDD;
+  background-color: #ddd;
   border-radius: 4px;
   font-weight: normal;
   margin: .4em;
@@ -30,13 +30,13 @@ nav a {
 
 header {
   display: block;
-  background-color: #ADADAD;
+  background-color: #adadad;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #DDDDDD;
+  background-color: #ddd;
 }
 
 nav ul {
@@ -63,7 +63,7 @@ nav a {
 footer {
   display: block;
   text-align: center;
-  background-color: #ADADAD;
+  background-color: #adadad;
   padding: 1em;
 }
 
@@ -85,9 +85,9 @@ figure {
 }
 
 figcaption {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, .5);
   border-radius: 7px;
   text-align: center;
   font-size: 3rem;
@@ -95,10 +95,6 @@ figcaption {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-div .prod {
-
 }
 
 div .spec {
